@@ -1,11 +1,10 @@
 import pytest
 
-from src.classes.product import Product, DigitalProduct, DiscountedProduct
-from src.classes.customer import Customer
-from src.classes.cart import Cart
-from src.classes.order import Order
-from src.classes.shop import Shop
-from src.classes.payment import CreditCardProcessor, PayPalProcessor
+from src.classes import (
+    Product, Customer, Cart, Order, Shop,
+    DigitalProduct, DiscountedProduct,
+    CreditCardProcessor, PayPalProcessor
+)
 
 
 # ---------------------------
