@@ -1,1 +1,1 @@
-# Shop-Classes
+запуск через main.py 
